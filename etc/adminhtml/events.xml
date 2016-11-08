@@ -6,7 +6,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="adminhtml_sales_order_create_process_data_before">
-        <observer name="magecode_fix_admin_order" instance="MageCode\AdminOrderFix\Observer\SalesOrderCreateProcessDataBefore" />
+    <event name="adminhtml_sales_order_create_process_data">
+        <observer name="magecode_fix_admin_order" instance="MageCode\AdminOrderFix\Observer\SalesOrderCreateProcessData" />
     </event>
 </config>
