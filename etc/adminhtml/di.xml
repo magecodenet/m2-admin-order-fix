@@ -10,4 +10,5 @@
         <plugin name="magecode_fix_admin_order" type="MageCode\AdminOrderFix\Plugin\QuoteCollectRates" sortOrder="10"/>
     </type>
     <preference for="Magento\Quote\Model\Quote\Address\RateResult\Error" type="MageCode\AdminOrderFix\Model\Quote\AddressRateResultError" />
+    <preference for="Magento\Quote\Model\QuoteRepository" type="MageCode\AdminOrderFix\Model\Quote\QuoteRepository" />
 </config>
